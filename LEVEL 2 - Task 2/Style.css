@@ -1,0 +1,122 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+:root {
+    --primary-color: #007bff;
+    --primary-color-dark: #0056b3;
+    --text-color: #333;
+    --bg-color: #f9f9f9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--bg-color);
+    padding: 15px 30px;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: var(--primary-color-dark);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background: var(--bg-color);
+}
+
+.content {
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 36px;
+    color: var(--text-color);
+}
+
+h1 span {
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 18px;
+    margin: 10px 0;
+    color: var(--text-color);
+}
+
+.action__btns {
+    margin-top: 20px;
+}
+
+.hire__me, .portfolio {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hire__me {
+    background: var(--primary-color);
+    color: white;
+}
+
+.hire__me:hover {
+    background: var(--primary-color-dark);
+}
+
+.portfolio {
+    background: white;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+
+.portfolio:hover {
+    background: var(--primary-color-dark);
+    color: white;
+}
+
+.image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
