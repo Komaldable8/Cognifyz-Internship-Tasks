@@ -1,5 +1,9 @@
-# Cognifyz-Internship-Tasks
+# Cognifyz-Internship-Tasks - Web Development 
 The Project provides four tasks which is given by Conginfyz Technology.
+
+# This repository contains my completed tasks from the Cognifyz internship program, showcasing my skills in web development. 
+The projects span from basic HTML/CSS to more advanced JavaScript-driven interactions and responsive design. 
+These tasks demonstrate my ability to create interactive, user-friendly web pages and layouts that work across multiple devices.
 
 # Level 1 Task 1 : Basic Web Page with Navigation, Form, and Image. 
 # Steps
